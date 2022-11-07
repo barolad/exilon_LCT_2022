@@ -8,7 +8,7 @@ module.exports = {
 		return [
 			{
 				source: '/api/:path*',
-				destination: 'http://localhost:8000/:path*',
+				destination: 'https://api-casesix.xamex.ru/:path*',
 			},
 		]
 	},
@@ -22,7 +22,7 @@ module.exports = {
 					{ key: 'Access-Control-Allow-Credentials', value: 'true' },
 					{
 						key: 'Access-Control-Allow-Origin',
-						value: 'http://localhost:8000',
+						value: 'https://api-casesix.xamex.ru',
 					},
 					{
 						key: 'Access-Control-Allow-Methods',
