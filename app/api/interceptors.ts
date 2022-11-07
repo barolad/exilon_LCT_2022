@@ -10,7 +10,7 @@ import axios from 'axios'
 // export default instance
 
 export const axiosClassic = axios.create({
-	baseURL: 'http://localhost:8000/api',
+	baseURL: 'https://api-casesix.xamex.ru/api',
 	headers: {
 		'Content-Type': 'application/json',
 	},
